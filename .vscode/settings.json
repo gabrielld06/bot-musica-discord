@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.compilerPath": "D:\\MSYS2\\mingw64\\bin\\gcc.exe",
+    "files.associations": {
+        "random": "cpp"
+    }
+}
