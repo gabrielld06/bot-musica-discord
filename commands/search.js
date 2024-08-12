@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { ActionRowBuilder, ButtonBuilder } = require('discord.js');
-const ytdl = require('ytdl-core');
+const ytdl = require('@distube/ytdl-core');
 const getIds = require('../utils/getIds.js');
 const playAudioHandler = require("../utils/playAudioHandler.js");
 

@@ -77,7 +77,7 @@ module.exports = async function playAudioHandler(audioURL, voiceChannel, interac
         } else {
             const audioPlayer = new AudioPlayer(() => delete activeConnections[voiceChannel.guild.id]);
 
-            audioPlayer.play(audioURL);
+            await audioPlayer.play(audioURL);
             
             connection.subscribe(audioPlayer.player);
 

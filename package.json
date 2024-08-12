@@ -1,14 +1,18 @@
 {
+  "scripts": {
+    "start": "node --env-file=.env main.js"
+  },
   "dependencies": {
-    "@discordjs/voice": "^0.16.0",
-    "axios": "^1.4.0",
+    "@discordjs/voice": "^0.17.0",
+    "@distube/ytdl-core": "^4.14.4",
+    "axios": "^1.7.3",
     "discord.js": "^14.11.0",
     "ffmpeg-static": "^5.1.0",
     "got": "^13.0.0",
     "json5": "^2.2.3",
     "libsodium-wrappers": "^0.7.11",
     "youtube-dl-exec": "^2.4.4",
-    "ytdl-core": "^4.11.4",
+    "ytdl-core": "^4.11.5",
     "ytdl-core-discord": "^1.3.1",
     "ytpl": "^2.3.0"
   }
